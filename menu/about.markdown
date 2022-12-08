@@ -4,4 +4,4 @@ title: Hakkımızda
 permalink: /about/
 ---
 
-discord: https://discord.gg/zr4FegdbcB
+discord: [Chikita Harikalar Diyarı!](https://discord.gg/zr4FegdbcB)
