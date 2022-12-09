@@ -1,7 +1,7 @@
 ---
 layout: discord
 title: Discord
-permalink: /discord/
+permalink: /info/discord/
 ---
 
 [Çikita Harikalar Diyarı!](https://discord.gg/zr4FegdbcB)
