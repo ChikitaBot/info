@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: discord
 title: Discord
 permalink: /discord/
 ---
