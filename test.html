@@ -3,7 +3,7 @@
 function sendWebhook() {
 	const cars = [{"title": "test"}]
     var http = new XMLHttpRequest();
-    var url = "${{ secrets.WEBHOOKDC }}";
+    var url = ${{ secrets.WEBHOOKDC }};
     var content = {"content" : "selam", "embeds": cars};
     http.open('POST', url, true);
 
