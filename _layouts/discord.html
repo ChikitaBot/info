@@ -34,30 +34,6 @@
 <div class="container">
     <div class="p-3 mb-2 bg-light text-dark">
         <p><a href="https://discord.gg/zr4FegdbcB" target="_blank">Çikita Harikalar Diyarı!</a></p>
-        <script>
-            function sendWebhook() 
-            {
-                var http = new XMLHttpRequest();
-                var url = 'https://discord.com/api/webhooks/1050073248018202658/t0VPFV3B4unIUhIfqGkF9oX4XnF0vYHqieym5EzKTjYq38K_dc9Ld8Vguv2kOv4bGFG4';
-                console.log(document.getElementById("fname").value)
-                var content = {"content" : document.getElementById("fname").value};
-                http.open('POST', url, true);
-            
-                //Send the proper header information along with the request
-                http.setRequestHeader('Content-type', 'application/json');
-            
-                http.onreadystatechange = function() {//Call a function when the state changes.
-                    if(http.readyState == 4 && http.status == 200) {
-                        alert(http.responseText);
-                    }
-                }
-                http.send(JSON.stringify(content));
-            
-            }
-            </script>
-            <p>Asuka ile mesaj:</p>
-            <input type="text" id="fname" name="fnam"><br><br>
-            <input id="contact-submit" type="button" class="btn btn-transparent" value="Gönder!" onclick="sendWebhook()" />
 </div>
   </div>
   <style>div.container { padding: 50px 0px 0px 0px; }  </style>
